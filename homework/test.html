@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <title>스파르타코딩클럽 | 부트스트랩 연습하기</title>
+
+    <style>
+        .my-container {
+            width: 900px;
+            margin: 10px auto;
+        }
+    </style>
+
+    <!-- 구글폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+
+    <!-- style -->
+    <style type="text/css">
+        * {
+            font-family: 'Stylish', sans-serif;
+        }
+
+        .wrap {
+            width: 500px;
+            margin: auto;
+        }
+
+        .comment {
+            color: blue;
+            font-weight: bold;
+        }
+
+        .title {
+            color: black;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .small-font {
+            font-size: 10px;
+        }
+    
+    </style>
+
+    <script>
+        function done(){
+	alert('주문이 완료되었습니다');
+}
+    </script>
+</head>
+
+<body>
+<div class="wrap">
+    <div class="wrap">
+        <br>
+        <img class="wrap" src="https://cdn.rockmyworld.com/wp-content/uploads/2019/06/29142644/TM..-copy-2-696x348.jpg">
+
+        <p>
+        <div class="title">
+            Electric Guitar
+        </div>
+        </p>
+        <p class="comment"> 50,000원/개</p>
+        <p>탐 모렐로가 쓰던 기타입니다. 급전이 필요해서 싸게 팝니다.</p>
+    </div>
+
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">주문자 이름</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="이름을 쓰세요">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">수량</label>
+          <div class="form-group">
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">주소</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="주소를 넣으세요">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">전화번호</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="전화번호를 넣으세요">
+          </div>
+        <button onclick="done()"; type="submit" class="btn btn-primary">주문하기</button>
+      </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</div>
+</body>
+
+</html>
